@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Projeto } from '../_models/Projeto';
+import { Tag } from '../_models/Tag';
 
 @Component({
   selector: 'app-portfolio',
@@ -16,7 +17,7 @@ export class PortfolioComponent {
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: '',
     imagens: [],
-    tags: ['Angular', 'TypeScript']
+    tags: [Tag.ANGULAR, Tag.TYPESCRIPT]
   },{
     id: 2,
     name: 'Projeto Java App',
@@ -24,7 +25,7 @@ export class PortfolioComponent {
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: '',
     imagens: [],
-    tags: ['Java', 'TypeScript']
+    tags: [Tag.JAVA, Tag.TYPESCRIPT]
   },
   {
     id: 3,
@@ -33,7 +34,32 @@ export class PortfolioComponent {
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: '',
     imagens: [],
-    tags: ['Spring Boot', 'TypeScript']
+    tags: [Tag.SPRING_BOOT, Tag.JAVA]
+  },{
+    id: 4,
+    name: 'Projeto Chrome Extension',
+    resumo: 'Exemplo de descrição',
+    descricao: 'Esse é um exemplo simples para demonstração.',
+    linkProjeto: '',
+    imagens: [],
+    tags: [Tag.CSHARP]
+  },{
+    id: 5,
+    name: 'Projeto Mobile API',
+    resumo: 'Exemplo de descrição',
+    descricao: 'Esse é um exemplo simples para demonstração.',
+    linkProjeto: '',
+    imagens: [],
+    tags: [Tag.NODEJS, Tag.JAVASCRIPT]
+  },
+  {
+    id: 6,
+    name: 'Projeto Web API',
+    resumo: 'Exemplo de descrição',
+    descricao: 'Esse é um exemplo simples para demonstração.',
+    linkProjeto: '',
+    imagens: [],
+    tags: [Tag.PHYTON]
   }]
 
   constructor(private titleService: Title){
