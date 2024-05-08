@@ -1,15 +1,10 @@
 <div class="container">
     
     <div class="row">        
-        <div class="col-lg-4 col-md-6 mb-4" style="max-width: 380px; min-width: 380px;">
-            <app-project-card [NomeProjeto]="'Projeto Angular App'" ></app-project-card>
+        <div class="col-lg-4 col-md-6 mb-4" 
+            style="max-width: 380px; min-width: 380px;"
+            *ngFor="let projeto of projetos">
+            <app-project-card [projeto]="projeto" ></app-project-card>
         </div>
-        <div class="col-lg-4 col-md-6 mb-4" style="max-width: 380px; min-width: 380px;">
-            <app-project-card [NomeProjeto]="'Projeto Java App'"></app-project-card>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4" style="max-width: 380px; min-width: 380px;">
-            <app-project-card [NomeProjeto]="'Projeto Spring App'"></app-project-card>
-        </div>
-
     </div>    
 </div>
