@@ -1,0 +1,20 @@
+<div class="modal-header">
+  <h2>{{ project.nome }}</h2>
+  <button class="btn-close" (click)="bsModalRef.hide()"></button>
+</div>
+<div class="modal-body">
+  <carousel>
+    <div *ngFor="let imagem of project.imagens">
+      <slide><img src="{{ imagem }}" alt="slide" style="display: block; width: 100%; height: 500px;"></slide>
+    </div>
+  </carousel>
+  <h4 class="mt-2">Descrição:</h4>
+  <p>{{ project.descricao }}</p>
+  <p class="p-text">Você pode encontrar esse projeto no GitHub: <a href='{{ project.linkProjeto }}' target="_blank">Clique Aqui</a></p>
+  <hr>
+  <div class="d-flex flex-wrap">
+    <div *ngFor="let tag of project.tags">
+      <div class="tag me-2 mb-1" [style.background-color]="tag.cor">{{tag}}</div>
+    </div>
+  </div>
+</div>

@@ -12,16 +12,16 @@ export class ProjetosService {
     nome: 'Projeto Angular App',
     resumo: 'Exemplo de descrição',
     descricao: 'Esse é um exemplo simples para demonstração.',
-    linkProjeto: '',
-    imagens: [],
+    linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
+    imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
     tags: [Tag.ANGULAR, Tag.TYPESCRIPT]
   },{
     id: 2,
     nome: 'Projeto Java App',
     resumo: 'Exemplo de descrição',
     descricao: 'Esse é um exemplo simples para demonstração.',
-    linkProjeto: '',
-    imagens: [],
+    linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
+    imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
     tags: [Tag.JAVA, Tag.TYPESCRIPT]
   },
   {
@@ -29,24 +29,24 @@ export class ProjetosService {
     nome: 'Projeto Spring Boot App',
     resumo: 'Exemplo de descrição',
     descricao: 'Esse é um exemplo simples para demonstração.',
-    linkProjeto: '',
-    imagens: [],
+    linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
+    imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
     tags: [Tag.SPRING_BOOT, Tag.JAVA]
   },{
     id: 4,
     nome: 'Projeto Chrome Extension',
     resumo: 'Exemplo de descrição',
     descricao: 'Esse é um exemplo simples para demonstração.',
-    linkProjeto: '',
-    imagens: [],
+    linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
+    imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
     tags: [Tag.CSHARP]
   },{
     id: 5,
     nome: 'Projeto Mobile API',
     resumo: 'Exemplo de descrição',
     descricao: 'Esse é um exemplo simples para demonstração.',
-    linkProjeto: '',
-    imagens: [],
+    linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
+    imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
     tags: [Tag.NODEJS, Tag.JAVASCRIPT]
   },
   {
@@ -54,8 +54,8 @@ export class ProjetosService {
     nome: 'Projeto Web API',
     resumo: 'Exemplo de descrição',
     descricao: 'Esse é um exemplo simples para demonstração.',
-    linkProjeto: '',
-    imagens: [],
+    linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
+    imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
     tags: [Tag.PHYTON]
   }]
 
