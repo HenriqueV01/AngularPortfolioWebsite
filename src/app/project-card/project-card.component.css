@@ -1,1 +1,5 @@
 h5{ font-weight: bold; }
+
+.degrade{
+  background-image: linear-gradient(180deg,transparent, rgb(194, 191, 191));
+}

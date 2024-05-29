@@ -10,7 +10,7 @@ export class ProjetosService {
   projetos: Projeto[] = [{
     id: 1,
     nome: 'Projeto Angular App',
-    resumo: 'Exemplo de descrição',
+    resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
     imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
@@ -18,7 +18,7 @@ export class ProjetosService {
   },{
     id: 2,
     nome: 'Projeto Java App',
-    resumo: 'Exemplo de descrição',
+    resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
     imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
@@ -27,7 +27,7 @@ export class ProjetosService {
   {
     id: 3,
     nome: 'Projeto Spring Boot App',
-    resumo: 'Exemplo de descrição',
+    resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
     imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
@@ -35,7 +35,7 @@ export class ProjetosService {
   },{
     id: 4,
     nome: 'Projeto Chrome Extension',
-    resumo: 'Exemplo de descrição',
+    resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
     imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
@@ -43,7 +43,7 @@ export class ProjetosService {
   },{
     id: 5,
     nome: 'Projeto Mobile API',
-    resumo: 'Exemplo de descrição',
+    resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
     imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],
@@ -52,7 +52,7 @@ export class ProjetosService {
   {
     id: 6,
     nome: 'Projeto Web API',
-    resumo: 'Exemplo de descrição',
+    resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
     imagens: ["../../assets/databox01.png","../../assets/databox02.png","../../assets/databox03.png"],

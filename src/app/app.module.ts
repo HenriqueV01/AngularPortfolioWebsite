@@ -14,6 +14,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { ProjectModalComponent } from './project-modal/project-modal.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
     SobreComponent,
     ContatoComponent,
     ProjectCardComponent,
-    ProjectModalComponent
+    ProjectModalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
