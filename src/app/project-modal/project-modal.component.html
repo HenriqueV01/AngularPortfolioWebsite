@@ -12,9 +12,9 @@
   <p>{{ project.descricao }}</p>
   <p class="p-text">Você pode encontrar esse projeto no GitHub: <a href='{{ project.linkProjeto }}' target="_blank">Clique Aqui</a></p>
   <hr>
-  <div class="d-flex flex-wrap">
+  <div class="d-flex flex-wrap center-text">
     <div *ngFor="let tag of project.tags">
-      <div class="tag me-2 mb-1" [style.background-color]="tag.cor">{{tag}}</div>
+      <div class="tag me-2 mb-1 text-center" [style.background-color]="tag.cor">{{tag}}</div>
     </div>
   </div>
 </div>
