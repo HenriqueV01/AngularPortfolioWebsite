@@ -74,4 +74,19 @@ export class ProjetosService {
     return projeto;
   }
 
+  getProjetosByFilter(filterTags: Tag[]){
+    let filteredProjects: Projeto[] = [];
+
+    this.projetos.forEach(p => {
+
+      filterTags.forEach(tag => {
+        if(p.tags.includes(tag)){
+          filteredProjects.push(p)
+        }
+      });
+
+    });
+    return filteredProjects;
+  }
+
 }
