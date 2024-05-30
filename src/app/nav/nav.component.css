@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
 .background{
-  background-color: white;
+  background-color: rgb(201, 200, 200);
 }
 
 .center-text {
@@ -10,6 +10,8 @@
   align-items: center;
   height: 100%;
   text-align: center;
+  height: 30px;
+  width: 100%;
 }
 
 
@@ -55,7 +57,8 @@ nav a:hover::before {
 }
 
 .dark {
-  background-color: rgb(194, 192, 192);
+  background-color: rgb(226, 226, 226);
+  align-items: center;
   height: 30px;
   width: 100%;
 }
