@@ -81,7 +81,9 @@ export class ProjetosService {
 
       filterTags.forEach(tag => {
         if(p.tags.includes(tag)){
-          filteredProjects.push(p)
+          if(!filteredProjects.includes(p)){
+            filteredProjects.push(p)
+          }
         }
       });
 
