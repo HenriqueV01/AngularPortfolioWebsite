@@ -22,6 +22,8 @@ export class PortfolioComponent implements OnInit{
   csharp: boolean = false;
   phyton: boolean = false;
 
+  filtrando: boolean = false;
+
   projetos = {} as Projeto[];
 
   constructor(private titleService: Title, private projetoService: ProjetosService){
@@ -67,6 +69,12 @@ export class PortfolioComponent implements OnInit{
       filterTags.push(Tag.PHYTON);
     }
 
+    if(filterTags.length > 0){
+      this.filtrando = true;
+    }else{
+      this.filtrando = false;
+    }
+
     if(filterTags.length === 0){
       this.projetos = this.projetoService.getProjetos();
     }else{
@@ -83,6 +91,7 @@ export class PortfolioComponent implements OnInit{
     this.nodejs     = false;
     this.csharp     = false;
     this.phyton     = false;
+    this.filtrando  = false;
 
     this.projetos = this.projetoService.getProjetos();
   }
