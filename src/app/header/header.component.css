@@ -1,7 +1,9 @@
 .jumbotron{
     padding: 1rem 1rem;
     /* background-color: #e9ecef; */
-    background-image: linear-gradient(to top, white 50%, black);
+    /* background-image: linear-gradient(to top, white 50%, black); */
+    background-image: url(../../assets/header.jpg);
+    background-size: cover;
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
