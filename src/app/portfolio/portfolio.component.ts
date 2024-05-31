@@ -66,7 +66,7 @@ export class PortfolioComponent implements OnInit{
     }
 
     if(this.phyton){
-      filterTags.push(Tag.PHYTON);
+      filterTags.push(Tag.PYTHON);
     }
 
     if(filterTags.length > 0){

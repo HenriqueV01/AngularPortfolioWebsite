@@ -56,7 +56,7 @@ export class ProjetosService {
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
     imagens: ["../../assets/img01.png","../../assets/img02.png","../../assets/img03.png"],
-    tags: [Tag.PHYTON]
+    tags: [Tag.PYTHON]
   }]
 
   constructor() { }

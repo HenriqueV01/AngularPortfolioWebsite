@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Renderer2 } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
@@ -8,8 +8,20 @@ import { Title } from '@angular/platform-browser';
 })
 export class SobreComponent {
 
-  constructor(private titleService: Title){
+  constructor(private titleService: Title, private renderer: Renderer2){
     this.titleService.setTitle('Henrique Venâncio - Sobre')
   }
+
+  downloadFile(){
+    const link = this.renderer.createElement('a');
+    link.setAttribute('target','_blank');
+    link.setAttribute('href','../../assets/Sobre.pdf');
+    link.setAttribute('download','Sobre.pdf');
+    link.click();
+    link.remove();
+  }
+
+
+
 
 }

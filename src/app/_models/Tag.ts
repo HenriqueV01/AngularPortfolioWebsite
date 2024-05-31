@@ -4,7 +4,7 @@ export class Tag{
     static readonly TYPESCRIPT = new Tag('TypeScript', 'darkblue');
     static readonly JAVA = new Tag('Java', 'darkorange');
     static readonly SPRING_BOOT = new Tag('Spring Boot', 'darkgreen');
-    static readonly PHYTON = new Tag('Phyton', 'darkviolet');
+    static readonly PYTHON = new Tag('Python', 'darkviolet');
     static readonly CSHARP = new Tag('C#', 'turquoise');
     static readonly JAVASCRIPT = new Tag('JavaScript', 'indigo');
     static readonly NODEJS = new Tag('Node.Js', 'black');
