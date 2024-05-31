@@ -21,7 +21,4 @@ export class SobreComponent {
     link.remove();
   }
 
-
-
-
 }
