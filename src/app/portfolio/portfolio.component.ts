@@ -25,7 +25,6 @@ export class PortfolioComponent implements OnInit{
   filtrando: boolean = false;
 
   projetos = {} as Projeto[];
-  filterTags: Tag[] = [];
 
   constructor(private titleService: Title, private projetoService: ProjetosService){
     this.titleService.setTitle('Henrique Venâncio - Portfólio')
@@ -36,50 +35,50 @@ export class PortfolioComponent implements OnInit{
   }
 
   filter(){
-
+    let filterTags: Tag[] = [];
 
     if(this.typescript){
-      this.filterTags.push(Tag.TYPESCRIPT);
+      filterTags.push(Tag.TYPESCRIPT);
     }
 
     if(this.angular){
-      this.filterTags.push(Tag.ANGULAR);
+      filterTags.push(Tag.ANGULAR);
     }
 
     if(this.springboot){
-      this.filterTags.push(Tag.SPRING_BOOT);
+      filterTags.push(Tag.SPRING_BOOT);
     }
 
     if(this.java){
-      this.filterTags.push(Tag.JAVA);
+      filterTags.push(Tag.JAVA);
     }
 
     if(this.javascript){
-      this.filterTags.push(Tag.JAVASCRIPT);
+      filterTags.push(Tag.JAVASCRIPT);
     }
 
     if(this.nodejs){
-      this.filterTags.push(Tag.NODEJS);
+      filterTags.push(Tag.NODEJS);
     }
 
     if(this.csharp){
-      this.filterTags.push(Tag.CSHARP);
+      filterTags.push(Tag.CSHARP);
     }
 
     if(this.phyton){
-      this.filterTags.push(Tag.PYTHON);
+      filterTags.push(Tag.PYTHON);
     }
 
-    if(this.filterTags.length > 0){
+    if(filterTags.length > 0){
       this.filtrando = true;
     }else{
       this.filtrando = false;
     }
 
-    if(this.filterTags.length === 0){
+    if(filterTags.length === 0){
       this.projetos = this.projetoService.getProjetos();
     }else{
-      this.projetos = this.projetoService.getProjetosByFilter(this.filterTags);
+      this.projetos = this.projetoService.getProjetosByFilter(filterTags);
     }
   }
 
