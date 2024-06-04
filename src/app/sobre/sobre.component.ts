@@ -16,7 +16,7 @@ export class SobreComponent {
     const link = this.renderer.createElement('a');
     link.setAttribute('target','_blank');
     link.setAttribute('href','../../assets/Curriculo-Henrique-Venancio.pdf');
-    link.setAttribute('download','Sobre.pdf');
+    link.setAttribute('download','Curriculo-Henrique-Venancio.pdf');
     link.click();
     link.remove();
   }
