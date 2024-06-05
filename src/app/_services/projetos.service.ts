@@ -13,7 +13,7 @@ export class ProjetosService {
     resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
-    imagens: ["../../assets/img01.png","../../assets/img02.png","../../assets/img03.png"],
+    imagens: ["./assets/img01.png","./assets/img02.png","./assets/img03.png"],
     tags: [Tag.ANGULAR, Tag.TYPESCRIPT]
   },{
     id: 2,
@@ -21,7 +21,7 @@ export class ProjetosService {
     resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
-    imagens: ["../../assets/img01.png","../../assets/img02.png","../../assets/img03.png"],
+    imagens: ["./assets/img01.png","./assets/img02.png","./assets/img03.png"],
     tags: [Tag.JAVA, Tag.TYPESCRIPT]
   },
   {
@@ -30,7 +30,7 @@ export class ProjetosService {
     resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
-    imagens: ["../../assets/img01.png","../../assets/img02.png","../../assets/img03.png"],
+    imagens: ["./assets/img01.png","./assets/img02.png","./assets/img03.png"],
     tags: [Tag.SPRING_BOOT, Tag.JAVA]
   },{
     id: 4,
@@ -38,7 +38,7 @@ export class ProjetosService {
     resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
-    imagens: ["../../assets/img01.png","../../assets/img02.png","../../assets/img03.png"],
+    imagens: ["./assets/img01.png","./assets/img02.png","./assets/img03.png"],
     tags: [Tag.CSHARP]
   },{
     id: 5,
@@ -46,7 +46,7 @@ export class ProjetosService {
     resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
-    imagens: ["../../assets/img01.png","../../assets/img02.png","../../assets/img03.png"],
+    imagens: ["./assets/img01.png","./assets/img02.png","./assets/img03.png"],
     tags: [Tag.NODEJS, Tag.JAVASCRIPT]
   },
   {
@@ -55,7 +55,7 @@ export class ProjetosService {
     resumo: 'Exemplo de descrição...',
     descricao: 'Esse é um exemplo simples para demonstração.',
     linkProjeto: 'https://github.com/HenriqueV01/AngularPortfolioWebsite',
-    imagens: ["../../assets/img01.png","../../assets/img02.png","../../assets/img03.png"],
+    imagens: ["./assets/img01.png","./assets/img02.png","./assets/img03.png"],
     tags: [Tag.PYTHON]
   }]
 
