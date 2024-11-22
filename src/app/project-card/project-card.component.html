@@ -8,7 +8,7 @@
     <div class="card-footer" style="background-color: grey;">
         <div class="d-flex flex-wrap justify-content-center">
             <div *ngFor="let tag of projeto.tags">
-                <div class="tag me-2 mb-1" [style.background-color]="tag.cor">{{tag}}</div>
+                <div style="min-width: 100px;" class="tag me-2 mb-1" [style.background-color]="tag.cor">{{tag}}</div>
             </div>
         </div>
     </div>
